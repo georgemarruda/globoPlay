@@ -31,8 +31,7 @@ describe 'Login' do
             click_button 'Entrar'
             expect(find('.error')).to have_content 'Preencha seu usuário e senha.'   
         end
-    end
-    
+    end    
 
     context 'Login com sucesso' do
         it 'Login OK' do    
